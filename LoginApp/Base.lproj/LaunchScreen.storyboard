@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p.png" translatesAutoresizingMaskIntoConstraints="NO" id="7tR-rF-KEV">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.47977638244628906" green="0.090355642139911652" blue="0.82712358236312866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ky.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="emG-q2-sji">
+                                <rect key="frame" x="-40" y="207" width="494" height="482"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.58858221769332886" green="0.10888931900262833" blue="0.93532735109329224" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7tR-rF-KEV" secondAttribute="bottom" id="3ev-4O-z2c"/>
+                            <constraint firstItem="7tR-rF-KEV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8Zg-mu-L78"/>
+                            <constraint firstItem="emG-q2-sji" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="163" id="FSg-hV-3b9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7tR-rF-KEV" secondAttribute="trailing" id="SjB-ER-Ccz"/>
+                            <constraint firstItem="7tR-rF-KEV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WHn-bR-7S3"/>
+                            <constraint firstAttribute="trailing" secondItem="emG-q2-sji" secondAttribute="trailing" constant="-40" id="bKa-CP-QpK"/>
+                            <constraint firstItem="emG-q2-sji" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-40" id="gFK-Pb-5Mo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="emG-q2-sji" secondAttribute="bottom" constant="173" id="vZk-9D-wgn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="463.768115942029" y="371.65178571428572"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ky.jpg" width="693" height="280"/>
+        <image name="p.png" width="600" height="1064"/>
+    </resources>
+</document>
